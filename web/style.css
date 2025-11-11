@@ -7,6 +7,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  padding-top: 50px; /* Space for fixed header */
 }
 
 /* ----- Container ----- */
@@ -17,7 +18,6 @@ body {
   text-align: center;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
   transition: transform 0.2s ease;
-  margin-bottom: 60px; /* Space for footer */
 }
 
 .container:hover {
@@ -26,10 +26,17 @@ body {
 
 /* ----- Toolbar ----- */
 .toolbar {
-  text-align: right;
-  margin-bottom: 15px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f8f9fa;
+  padding: 10px 15px;
+  border-bottom: 1px solid #dee2e6;
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  align-items: center;
+  z-index: 1000;
 }
 
 .toolbar button {
@@ -37,6 +44,7 @@ body {
   padding: 5px 10px;
   background: #f0f0f0;
   color: #333;
+  margin: 0 5px; /* Adjust margin for flex layout */
 }
 
 .toolbar button:hover {

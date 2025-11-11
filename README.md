@@ -125,12 +125,9 @@ The app will be packaged into `/dist/Stopwatch.exe` and can run on any Windows m
 
 ## 🔮 Future Enhancements
 
-🚧 Planned features:
-- ⏱ Lap recording inside a running session  
-- 🌓 Light/Dark mode toggle  
-- 💾 Export sessions to CSV  
-- 🗄 Move from JSON → SQLite database  
-- ☁️ Optional cloud sync (OneDrive / Dropbox)  
+🚧 Planned features:  
+- 🌓 Light/Dark mode toggle
+- ☁️ Optional cloud sync
 
 ---
 
