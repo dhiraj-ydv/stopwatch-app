@@ -67,7 +67,7 @@ pip install pyinstaller
 
 ### 1️⃣ Clone this repository
 ```bash
-git clone https://github.com/<ydvdhiraj>/stopwatch-app.git
+git clone https://github.com/<dhiraj-ydv>/stopwatch-app.git
 cd stopwatch-app
 ```
 
@@ -206,8 +206,8 @@ and can run on any Windows machine without Python installed.
 
 ## 🧑‍💻 Author
 
-**[Dhiraj Yadav](https://github.com/ydvdhiraj**  
-🌐 GitHub: [@ydvdhiraj](https://github.com/ydvdhiraj)  
+**[Dhiraj Yadav](https://github.com/dhiraj-ydv**  
+🌐 GitHub: [@dhiraj-ydv](https://github.com/dhiraj-ydv)  
 📧 Contact: hello@dhiarjhq.com  
 
 If you like this project, please ⭐ **star the repo** — it helps others discover it!
