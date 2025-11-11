@@ -3,7 +3,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![PyWebView](https://img.shields.io/badge/UI-PyWebView-0078d7.svg)](https://pywebview.flowrl.com/)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)]()
 
 ---
 
