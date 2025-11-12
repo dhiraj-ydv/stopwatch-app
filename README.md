@@ -27,7 +27,7 @@
 ## 🧱 Project Structure
 
 ```
-session-logger-app/
+session-logger/
 │
 ├── main.py                # Python backend (logic, persistence, API)
 ├── config.json            # Stores the path to the last used session database
@@ -58,8 +58,8 @@ pip install pywebview
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/dhiraj-ydv/stopwatch-app.git
-cd stopwatch-app
+git clone https://github.com/dhiraj-ydv/session-logger.git
+cd session-logger
 ```
 
 ### 2️⃣ Install dependencies
@@ -117,7 +117,7 @@ pip install pyinstaller
 pyinstaller --onefile main.py
 ```
 
-The app will be packaged into `/dist/SessionLogger.exe` and can run on any Windows machine without a Python installation.
+The app will be packaged into `/dist/session-logger.exe` and can run on any Windows machine without a Python installation.
 
 ---
 
