@@ -9,8 +9,8 @@ async function updateTime() {
   document.getElementById('time').innerText = time.toFixed(2);
 }
 
-async function toggleStopwatch() {
-  const status = await window.pywebview.api.toggle_stopwatch();
+async function toggleSessionLogger() {
+  const status = await window.pywebview.api.toggle_session_logger();
   const toggleBtn = document.getElementById('toggle-btn');
 
   if (status === 'running') {
@@ -65,7 +65,7 @@ function updateStatus(state) {
   if (!statusEl) return;
 
   if (state === 'running') {
-    statusEl.innerText = "⏱ Running...";
+    statusEl.innerText = "📝 Logging...";
     statusEl.style.color = "green";
   } else if (state === 'paused') {
     statusEl.innerText = "⏸ Paused";

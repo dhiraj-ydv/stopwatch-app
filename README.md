@@ -1,4 +1,4 @@
-# 🕒 Stopwatch App  
+# 🕒 Session Logger App  
 *A Modern Desktop Stopwatch Built with Python, HTML/CSS & PyWebView*
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
@@ -8,7 +8,7 @@
 
 ## 📖 Overview
 
-**Stopwatch App** is a lightweight, modern desktop stopwatch combining a **web-based frontend (HTML/CSS/JS)** with a **Python backend** using **PyWebView**. It offers a native desktop experience without complex frameworks.
+**Session Logger App** is a lightweight, modern desktop session logger combining a **web-based frontend (HTML/CSS/JS)** with a **Python backend** using **PyWebView**. It offers a native desktop experience without complex frameworks.
 
 ---
 
@@ -27,7 +27,7 @@
 ## 🧱 Project Structure
 
 ```
-stopwatch-app/
+session-logger-app/
 │
 ├── main.py                # Python backend (logic, persistence, API)
 ├── config.json            # Stores the path to the last used session database
@@ -117,7 +117,7 @@ pip install pyinstaller
 pyinstaller --onefile main.py
 ```
 
-The app will be packaged into `/dist/Stopwatch.exe` and can run on any Windows machine without a Python installation.
+The app will be packaged into `/dist/SessionLogger.exe` and can run on any Windows machine without a Python installation.
 
 ---
 
@@ -126,18 +126,3 @@ The app will be packaged into `/dist/Stopwatch.exe` and can run on any Windows m
 🚧 Planned features:  
 - 🌓 Light/Dark mode toggle
 - ☁️ Optional cloud sync
-
----
-
-## 🧑‍💻 Author
-
-**[Dhiraj Yadav](https://github.com/dhiraj-ydv)**  
-🌐 GitHub: [@dhiraj-ydv](https://github.com/dhiraj-ydv)  
-📧 Contact: hello@dhiarjhq.com  
-
-If this project is helpful, please ⭐ **star the repo** — it helps others discover it!
-
----
-
-⭐ **If this project is helpful, don’t forget to give it a Star!**  
-> Happy Coding! 🕒

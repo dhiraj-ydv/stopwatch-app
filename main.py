@@ -7,7 +7,7 @@ from datetime import datetime
 
 CONFIG_FILE = 'config.json'
 
-class StopwatchAPI:
+class SessionLoggerAPI:
     def __init__(self):
         self.running = False
         self.session_active = False
@@ -143,9 +143,9 @@ class StopwatchAPI:
 
 
 if __name__ == '__main__':
-    api = StopwatchAPI()
+    api = SessionLoggerAPI()
     window = webview.create_window(
-        'Stopwatch',
+        'Session Logger',
         'web/index.html',
         js_api=api,
         width=380,
