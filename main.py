@@ -69,7 +69,7 @@ class SessionLoggerAPI:
         return None
 
     # ---- Stopwatch core ----
-    def toggle_stopwatch(self):
+    def toggle_session_logger(self):
         if not self.running:
             # Start a new session
             self.running = True
